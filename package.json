@@ -29,7 +29,7 @@
 		"index.js"
 	],
 	"dependencies": {
-		"hafas-client": "derhuerst/hafas-client"
+		"hafas-client": "^2.5.0"
 	},
 	"devDependencies": {},
 	"scripts": {
