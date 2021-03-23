@@ -1,6 +1,7 @@
 'use strict'
 
-const client = require('.')
+const createClient = require('.')
+const client = createClient('nahsh-hafas-example')
 
 // Flensburg Hbf to Kiel Hbf
 client.journeys('8000103', '8000199', {results: 10, tickets: true})

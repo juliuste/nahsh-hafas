@@ -3,6 +3,8 @@
 const createClient = require('hafas-client')
 const nahshProfile = require('hafas-client/p/nahsh')
 
-const client = createClient(nahshProfile)
+const createNahshClient = (userAgent, opt = {}) => {
+	return createClient(nahshProfile, userAgent, opt)
+}
 
-module.exports = client
+module.exports = createNahshClient

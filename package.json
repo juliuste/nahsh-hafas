@@ -29,7 +29,7 @@
 		"index.js"
 	],
 	"dependencies": {
-		"hafas-client": "^2.5.0"
+		"hafas-client": "^5.15.1"
 	},
 	"devDependencies": {},
 	"scripts": {

@@ -2,7 +2,7 @@
 
 **Client for the [Nahverkehrsverbund Schleswig-Holstein (NAH.SH)](http://www.nah.sh) HAFAS API.** It acts as a consistent and straightforward interface on top of a verbose API.
 
-This project is actually a thin wrapper around [`hafas-client@2`](https://github.com/public-transport/hafas-client/blob/2/readme.md). [Its docs](https://github.com/derhuerst/hafas-client/tree/2/docs) document the API in general.
+This project is actually a thin wrapper around [`hafas-client@5`](https://github.com/public-transport/hafas-client/blob/5/readme.md). [Its docs](https://github.com/derhuerst/hafas-client/tree/5/docs) document the API in general.
 
 [![npm version](https://img.shields.io/npm/v/nahsh-hafas.svg)](https://www.npmjs.com/package/nahsh-hafas)
 [![dependency status](https://img.shields.io/david/juliuste/nahsh-hafas.svg)](https://david-dm.org/juliuste/nahsh-hafas)
@@ -18,16 +18,18 @@ npm install nahsh-hafas
 
 ## API
 
-Check [the docs for `hafas-client@2`](https://github.com/derhuerst/hafas-client/tree/2/docs) as well as [the NAH.SH-specific customisations](https://github.com/derhuerst/hafas-client/blob/2/p/nahsh/readme.md).
+Check [the docs for `hafas-client@2`](https://github.com/derhuerst/hafas-client/tree/5/docs) as well as [the NAH.SH-specific customisations](https://github.com/derhuerst/hafas-client/blob/5/p/nahsh/readme.md).
 
 
 ## Getting Started
 
 ```javascript
-const client = require('nahsh-hafas')
+const createClient = require('nahsh-hafas')
+
+const client = createHafas('my-awesome-program-useragent')
 ```
 
-As an example, we will search for a route from *Flensburg* to *Kiel Hbf*. To get the station ids, use [`locations(query, [opt])`](https://github.com/derhuerst/hafas-client/blob/2/docs/locations.md).
+As an example, we will search for a route from *Flensburg* to *Kiel Hbf*. To get the station ids, use [`locations(query, [opt])`](https://github.com/derhuerst/hafas-client/blob/5/docs/locations.md).
 
 ```javascript
 client.journeys('8000103', '8000199')
