@@ -1,7 +1,7 @@
 {
 	"name": "nahsh-hafas",
 	"description": "JavaScript client for the NAH.SH HAFAS API.",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"keywords": [
 		"nah.sh",
 		"nahverkehr",
