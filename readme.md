@@ -5,8 +5,6 @@
 This project is actually a thin wrapper around [`hafas-client@5`](https://github.com/public-transport/hafas-client/blob/5/readme.md). [Its docs](https://github.com/derhuerst/hafas-client/tree/5/docs) document the API in general.
 
 [![npm version](https://img.shields.io/npm/v/nahsh-hafas.svg)](https://www.npmjs.com/package/nahsh-hafas)
-[![dependency status](https://img.shields.io/david/juliuste/nahsh-hafas.svg)](https://david-dm.org/juliuste/nahsh-hafas)
-[![dev dependency status](https://img.shields.io/david/dev/juliuste/nahsh-hafas.svg)](https://david-dm.org/juliuste/nahsh-hafas#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/nahsh-hafas.svg?style=flat)](LICENSE)
 [![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
